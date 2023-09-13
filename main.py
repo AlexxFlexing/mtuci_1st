@@ -1,7 +1,7 @@
 from function1 import greet
 from function2 import calculate_square
 
-name = input("Enter your name: ")
+name = input("Введите ваше имя: ")
 greet(name)
 
 number = int(input("Enter a number: "))
