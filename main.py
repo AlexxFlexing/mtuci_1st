@@ -4,6 +4,6 @@ from function2 import calculate_square
 name = input("Введите ваше имя: ")
 greet(name)
 
-number = int(input("Enter a number: "))
+number = int(input("Введите число: "))
 squared_number = calculate_square(number)
-print(f"The square of {number} is {squared_number}")
+print(f"Квадрат числа {number} это {squared_number}")
